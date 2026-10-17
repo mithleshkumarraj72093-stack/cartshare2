@@ -1,0 +1,48 @@
+/* ================================
+   CartShare - Print Styles
+   ================================ */
+
+@media print {
+  /* Hide everything that's not needed */
+  .no-print,
+  nav,
+  button,
+  .btn {
+    display: none !important;
+  }
+
+  /* Show print-only section */
+  .print-only {
+    display: block !important;
+  }
+
+  body {
+    background: #7257d4 !important;
+    font-size: 12pt;
+  }
+
+  .container {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  #printReceipt {
+    page-break-after: avoid;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  table th,
+  table td {
+    border: 1px solid #000 !important;
+    padding: 6px !important;
+  }
+
+  h2,
+  h5 {
+    margin-top: 10px;
+  }
+}

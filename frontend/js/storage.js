@@ -65,9 +65,8 @@
 //   });
 // }
 
-
-const API_URL = "http://localhost:4000";
-const SOCKET_URL = "http://localhost:4000";
+const API_URL = "https://cartshare2-backend.onrender.com";
+const SOCKET_URL = "https://cartshare2-backend.onrender.com";
 
 const SESSION_KEY = "cartshare_session";
 
